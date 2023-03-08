@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/erasing.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <title>Document</title>
+</head>
+<body>
+  <div class="wrapper">
+       <div class="slider_wrapper">
+        <div class="input_wrapper">
+            <input type="radio" name="slider" id="slide_1" checked>
+            <input type="radio" name="slider" id="slide_2">
+            <div class="label_wrapper">
+                  <label for="slide_1">Sign In</label>
+                  <label for="slide_2">Sign Up</label>
+            </div>
+           <div class="slider_content">
+            <div class="sign_in_container">
+              <form action="#" class="entry_form">
+                <div class="fill_container">
+                  <input type="text" id="entry_name" required>
+                  <label for="entry_name">Username</label>
+                </div>
+                <div class="fill_container">
+                  <input type="password" id="entry_pass" required>
+                  <label for="entry_pass">Password</label>
+                </div>
+                <button class="send" type="submit">Enter</button>
+              </form>
+            </div>
+            <div class="sign_up_container">
+             <form class="info_form">
+                <div class="fill_container">
+                  <input type="text" id="name" required>
+                  <label for="name">Username</label>
+                </div>
+                <div class="fill_container">
+                  <input type="email" id="mail" required>
+                  <label for="mail">Email</label>
+                </div>
+                <div class="fill_container">
+                  <input type="password" id="pass" required>
+                  <label for="pass">Password</label>
+                </div>
+                <div class="fill_container">
+                  <input type="password" id="confirm" required>
+                  <label for="confirm">Confirm Password</label>
+                </div>
+                <div class="check_container">
+                  <input type="checkbox" id="check" required>
+                  <label for="check" id="checkbox">
+                    <div class="smile_container">
+                      <i id="sad" class="fa-solid fa-face-frown"></i>
+                      <i id="happy" class="fa-solid fa-face-smile"></i>
+                    </div >
+                  </label>
+                  <label id="sign">I Agree</label>
+                </div>
+                <button class="send" type="submit">Register</button>
+              </div>
+             </form>
+           </div>
+        </div>
+       </div>
+  </div >
+</body>
+</html>
